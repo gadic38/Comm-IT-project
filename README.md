@@ -18,6 +18,7 @@ the end of the prosses -the user will receive "hello" messege and name of the us
 services that used in the project:
 -----------
 Cognito-
+
 User Registration-User enters email, username and password and registers with the User Pool.
 User Verification-AWS Cognito User Pool will send verification code by email or sms and the user enters the code to get verified with the User Pool.
 User Login-User enters username and password and logs in with Cognito User Pool in which case a token will be provided by Cognito upon successful login.
